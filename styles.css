@@ -1,0 +1,182 @@
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fffaf0; /* off-white, soft */
+  color: #333;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #e5bd46, #f5e3b3); /* golden warm gradient */
+  padding: 70px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+header::before { left: 20px; }
+header::after { right: 20px; }
+
+header h1 {
+  font-family: 'Arial', sans-serif;  /* simple keyboard style */
+  font-size: 60px;
+  color: #000000; /* black */
+  letter-spacing: 15px; /* space out letters */
+  text-transform: uppercase; /* ensure all caps */
+  font-weight: 300; /* thinner letters, change from default bold */
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2); /* subtle shadow */
+  margin: 20px 0;
+}
+
+header p {
+  font-size: 22px;
+  color: #800000; /* subtle dark red for energy */
+  font-weight: bold;
+}
+
+/* Wave accent (simulate black line like logo) */
+header .wave {
+  display: block;
+  width: 100%;
+  height: 15px;
+  background: black;
+  border-radius: 10px 10px 0 0;
+  margin-top: 20px;
+}
+
+/* About section - now open and soft */
+.about {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 36px;
+  color: #d4ac33;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 20px;
+  line-height: 1.7;
+  color: #5c4033; /* light brown text */
+}
+
+/* Gallery */
+.gallery {
+  padding: 60px 20px;
+  background-color: #fff; /* white background for contrast */
+}
+
+.gallery h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  color: #d4ac33;
+  margin-bottom: 35px;
+}
+
+.scrunchie-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.scrunchie-container img {
+  width: 240px;
+  height: auto;
+  border-radius: 25px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.scrunchie-container img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.35);
+}
+
+/* Contact section */
+.contact {
+  padding: 60px 20px;
+  background-color: #fffaf0; /* soft off-white */
+}
+
+.contact h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  color: #d4ac33;
+  margin-bottom: 20px;
+}
+
+.contact a.instagram-button {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 18px 35px;
+  background-color: #800000; /* strong red accent */
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 20px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.contact a.instagram-button:hover {
+  background-color: #a00000;
+  transform: scale(1.05);
+}
+
+/* Tips section */
+.tips {
+  padding: 60px 20px;
+  background-color: #fffaf0; /* soft off-white for readability */
+}
+
+.tips h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 36px;
+  color: #d4ac33;
+  margin-bottom: 25px;
+}
+
+.tips ul {
+  list-style: none;
+  padding: 0;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.tips li {
+  font-size: 20px;
+  margin: 12px 0;
+  padding-left: 12px;
+  position: relative;
+  font-weight: bold;
+  color: #5c4033; /* light brown */
+}
+
+.tips li::before {
+  content: "✨";
+  margin-right: 10px;
+}
+
+/* Footer */
+footer {
+  padding: 35px 20px;
+  background-color: #d4ac33; /* golden footer */
+  color: #000;
+}
+
+footer a {
+  color: #000;
+  text-decoration: underline;
+}
+
+footer p {
+  margin: 6px 0;
+}

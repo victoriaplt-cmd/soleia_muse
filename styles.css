@@ -3,14 +3,14 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background: #fffaf0; /* off-white, soft */
+  background: #fffaf0; 
   color: #333;
   text-align: center;
 }
 
 /* Header */
 header {
-  background: linear-gradient(135deg, #e5bd46, #f5e3b3); /* golden warm gradient */
+  background: linear-gradient(135deg, #e5bd46, #f5e3b3); 
   padding: 70px 20px;
   position: relative;
   overflow: hidden;
@@ -21,23 +21,23 @@ header::before { left: 20px; }
 header::after { right: 20px; }
 
 header h1 {
-  font-family: 'Arial', sans-serif;  /* simple keyboard style */
+  font-family: 'Arial', sans-serif; 
   font-size: 60px;
-  color: #000000; /* black */
-  letter-spacing: 15px; /* space out letters */
-  text-transform: uppercase; /* ensure all caps */
-  font-weight: 300; /* thinner letters, change from default bold */
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2); /* subtle shadow */
+  color: #000000; 
+  letter-spacing: 15px; 
+  text-transform: uppercase; 
+  font-weight: 300; 
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2); 
   margin: 20px 0;
 }
 
 header p {
   font-size: 22px;
-  color: #800000; /* subtle dark red for energy */
+  color: #800000; 
   font-weight: bold;
 }
 
-/* Wave accent (simulate black line like logo) */
+
 header .wave {
   display: block;
   width: 100%;
@@ -47,7 +47,7 @@ header .wave {
   margin-top: 20px;
 }
 
-/* About section - now open and soft */
+
 .about {
   padding: 50px 20px;
   max-width: 900px;
@@ -64,13 +64,13 @@ header .wave {
 .about p {
   font-size: 20px;
   line-height: 1.7;
-  color: #5c4033; /* light brown text */
+  color: #5c4033; 
 }
 
-/* Gallery */
+
 .gallery {
   padding: 60px 20px;
-  background-color: #fff; /* white background for contrast */
+  background-color: #fff; 
 }
 
 .gallery h2 {
@@ -103,7 +103,7 @@ header .wave {
 /* Contact section */
 .contact {
   padding: 60px 20px;
-  background-color: #fffaf0; /* soft off-white */
+  background-color: #fffaf0; 
 }
 
 .contact h2 {
@@ -117,7 +117,7 @@ header .wave {
   display: inline-block;
   margin-top: 25px;
   padding: 18px 35px;
-  background-color: #800000; /* strong red accent */
+  background-color: #800000; 
   color: white;
   font-weight: bold;
   text-decoration: none;
@@ -134,7 +134,7 @@ header .wave {
 /* Tips section */
 .tips {
   padding: 60px 20px;
-  background-color: #fffaf0; /* soft off-white for readability */
+  background-color: #fffaf0; 
 }
 
 .tips h2 {
@@ -157,7 +157,7 @@ header .wave {
   padding-left: 12px;
   position: relative;
   font-weight: bold;
-  color: #5c4033; /* light brown */
+  color: #5c4033; 
 }
 
 .tips li::before {
@@ -168,7 +168,7 @@ header .wave {
 /* Footer */
 footer {
   padding: 35px 20px;
-  background-color: #d4ac33; /* golden footer */
+  background-color: #d4ac33; 
   color: #000;
 }
 
@@ -179,4 +179,5 @@ footer a {
 
 footer p {
   margin: 6px 0;
+
 }
